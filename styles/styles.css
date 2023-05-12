@@ -1,0 +1,66 @@
+body {
+  position: relative;
+  background: #CB493E;
+  padding: 70px 60px;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+body .hero {
+  width: 1600px;
+  height: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background-image: url(/images/shoe.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .hero .wobat {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body .hero .wobat h1 {
+  font-family: "Teko";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 545.285px;
+  color: rgba(0, 0, 0, 0.1);
+}
+body .hero .woman {
+  display: flex;
+  justify-content: flex-end;
+}
+body .hero .woman h3 {
+  font-family: "Teko";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 69.4601px;
+  line-height: 100px;
+  color: #fff;
+}
+body .hero p {
+  font-family: "Teko";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43.0238px;
+  line-height: 109.2%;
+  color: rgba(255, 255, 255, 0.87);
+}
+body .hero .ratings {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  gap: 10px;
+}/*# sourceMappingURL=styles.css.map */
