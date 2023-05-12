@@ -22,9 +22,6 @@ body .hero {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  background-image: url(/images/shoe.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 body .hero .wobat {
   width: 100%;
@@ -37,6 +34,13 @@ body .hero .wobat h1 {
   font-weight: 700;
   font-size: 545.285px;
   color: rgba(0, 0, 0, 0.1);
+}
+body .hero .shoe {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  transform: translateX(10%);
+  align-items: center;
 }
 body .hero .woman {
   display: flex;
@@ -63,4 +67,44 @@ body .hero .ratings {
   flex-direction: row;
   margin-top: 50px;
   gap: 10px;
+}
+body .hero .contact {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 50px;
+  top: 28%;
+  right: -200px;
+}
+body .hero .contact img {
+  cursor: pointer;
+  transition: 0.5s;
+}
+body .hero .contact img:hover {
+  transform: translateY(-10px);
+}
+body footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer .arrow {
+  border: 2px solid #FFF8F8;
+  width: 100%;
+}
+body footer .footer-heading {
+  background-color: #CB493E;
+  padding: 0px 110px;
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  font-family: "Teko";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.4999px;
+  line-height: 54px;
+  color: #fff;
+  right: 38%;
 }/*# sourceMappingURL=styles.css.map */

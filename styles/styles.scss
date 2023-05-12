@@ -23,9 +23,6 @@ body {
         flex-direction: column;
         justify-content: center;
         position: relative;
-        background-image: url(/images/shoe.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
         
         .wobat {
             width: 100%;
@@ -38,6 +35,15 @@ body {
                 font-size: 545.285px;
                 color: rgba(0, 0, 0, 0.1);
             }
+        }
+
+
+        .shoe {
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            transform: translateX(10%);
+            align-items: center;
         }
         .woman {
             display: flex;
@@ -53,6 +59,7 @@ body {
             }
         }
 
+
         p {
             font-family: 'Teko';
             font-style: normal;
@@ -66,8 +73,53 @@ body {
             display: flex;
             flex-direction: row;
             margin-top: 50px;
-            
             gap: 10px;
+        }
+
+        .contact {
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            gap: 50px;
+            top: 28%;
+            right: -200px;
+
+            img {
+                cursor: pointer;
+                transition: 0.5s;
+                &:hover {
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .arrow {
+            border: 2px solid #FFF8F8;
+            width: 100%;
+        }
+
+        .footer-heading{
+            background-color: #CB493E;
+            padding: 0px 110px;
+            position: absolute;
+            text-align: center;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            font-family: 'Teko';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 37.4999px;
+            line-height: 54px;
+            color: #fff;
+            right: 38%;
         }
     }
 }
